@@ -5,7 +5,7 @@
     >
       <div class="text-center lg:text-left"></div>
       <div
-        class="card w-full max-w-lg shadow-2xl border border-1 border-red-800"
+        class="card w-full max-w-lg shadow-2xl bg-base-200 border border-1 border-red-800"
       >
         <div class="card-body w-full">
           <form
