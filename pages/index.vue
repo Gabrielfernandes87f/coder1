@@ -17,7 +17,7 @@
               </tr>
             </thead>
 
-            <tbody v-for="todo in todos" :key="todo.id">
+            <tbody v-for="todo in todos" :key="todo.id" class="bg-base-200">
               <!-- row 1 -->
               <tr>
                 <th>
