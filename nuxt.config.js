@@ -1,6 +1,5 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
-
   head: {
     title: 'SoftwareEnginner->Gabriel',
     htmlAttrs: {
@@ -37,6 +36,7 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    '@nuxtjs/color-mode',
     '@nuxtjs/tailwindcss',
   ],
 
