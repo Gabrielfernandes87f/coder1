@@ -1,5 +1,5 @@
 <template>
-  <div class="hero min-h-screen">
+  <div class="hero min-h-screen bg-base-200">
     <div class="grid place-items-center">
       <div class="grid place-center">
         <div class="bg-black text-white text-2xl overflow-hidden rounded-lg">
