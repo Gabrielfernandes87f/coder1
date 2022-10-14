@@ -960,9 +960,35 @@
                       >✕</label
                     >
                     <h3 class="text-lg font-bold">voltar?</h3>
-                    <nuxt-link to="/" class="py-4 text-red-400 text-lg"
-                      >Vejos outros projetos clicando aqui</nuxt-link
+                    <div
+                      class="hover:bg-gray-800 flex justify-center rounded-lg text-red-400 hover:text-blue-300"
                     >
+                      <nuxt-link to="/formas" class="py-4 text-lg"
+                        >Vejos algumas formas que eu fiz usando
+                        tailwind</nuxt-link
+                      >
+                    </div>
+                    <div
+                      class="hover:bg-gray-800 flex justify-center rounded-lg text-red-400 hover:text-blue-300"
+                    >
+                      <nuxt-link to="/contato" class="py-4 text-lg"
+                        >Formulario de contato, tailwind</nuxt-link
+                      >
+                    </div>
+                    <div
+                      class="hover:bg-gray-800 flex justify-center rounded-lg text-red-400 hover:text-blue-300"
+                    >
+                      <nuxt-link to="/login" class="py-4 text-lg"
+                        >tela de login</nuxt-link
+                      >
+                    </div>
+                    <div
+                      class="hover:bg-gray-800 flex justify-center rounded-lg text-red-400 hover:text-blue-300"
+                    >
+                      <nuxt-link to="/coder" class="py-4 text-lg"
+                        >coder</nuxt-link
+                      >
+                    </div>
                   </label>
                 </label>
               </div>
