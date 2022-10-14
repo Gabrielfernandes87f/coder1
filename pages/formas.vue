@@ -39,7 +39,7 @@
     </div>
     <div>
       <div class="h-screen bg-blue-300 grid place-items-center">
-        <div class="w-[820px] h-[400px] bg-gray-700 rounded-full relative">
+        <div class="w-[70vw] h-[400px] bg-gray-700 rounded-full relative">
           <div class="w-60 h-60 bg-blue-700 rounded-full relative top-5 left-5">
             <div
               class="absolute animate-bounce h-20 w-20 top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 bg-red-400 rounded-full"
