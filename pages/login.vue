@@ -15,7 +15,7 @@
       >
         <nuxt-link
           class="text-blue-400 font-bold group-hover:text-gray-800 transition delay-100 duration-300 ease-in-out"
-          to="/login"
+          to="/formas"
           >Formas</nuxt-link
         >
       </div>
