@@ -54,7 +54,7 @@
               >
                 <div>
                   <label for="my-modal-11" class="modal-button"
-                    ><img src="ialy.svg" class="w-full"
+                    ><img src="ialy.svg" @click="storys" class="w-full"
                   /></label>
                   <!-- Put this part before </body> tag -->
                   <input
@@ -867,6 +867,9 @@ export default {
   methods: {
     vibrar() {
       window.navigator.vibrate(200);
+    },
+    storys() {
+      console.log("passar storys");
     },
   },
 };
