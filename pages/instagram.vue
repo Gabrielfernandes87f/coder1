@@ -1008,8 +1008,10 @@
               <input type="checkbox" id="my-modal-5" class="modal-toggle" />
               <label for="my-modal-5" class="modal cursor-pointer">
                 <label class="modal-box relative" for="">
-                  <h3 class="text-lg font-bold">Pesquisa?</h3>
-                  <p class="py-4">Sua Alexa pode fazer pesquisa, eu não 😁</p>
+                  <h3 class="text-lg font-bold text-center">Pesquisa?</h3>
+                  <p class="py-4 text-center">
+                    Sua Alexa pode fazer pesquisa, eu não 😁
+                  </p>
                 </label>
               </label>
             </div>
@@ -1019,8 +1021,10 @@
               <!-- Put this part before </body> tag -->
               <input type="checkbox" id="my-modal-6" class="modal-toggle" />
               <label for="my-modal-6" class="modal cursor-pointer">
-                <label class="modal-box relative" for="">
-                  <h3 class="text-lg font-bold">Você está sendo filmado</h3>
+                <label class="modal-box relative" for="my-modal-6">
+                  <h3 class="text-lg font-bold text-center">
+                    Você está sendo filmado!
+                  </h3>
                   <p class="py-4"></p>
                 </label>
               </label>
@@ -1064,8 +1068,8 @@
                       class="hover:bg-gray-800 flex justify-center rounded-lg text-red-400 hover:text-blue-300"
                     >
                       <nuxt-link to="/login" class="py-4 text-lg"
-                        >Tela de login</nuxt-link
-                      >
+                        >Tela de login
+                      </nuxt-link>
                     </div>
                     <div
                       class="hover:bg-gray-800 flex justify-center rounded-lg text-red-400 hover:text-blue-300"

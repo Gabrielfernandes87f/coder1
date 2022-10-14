@@ -36,6 +36,47 @@
         ></span>
       </div>
     </div>
+    <div>
+      <div class="h-screen bg-blue-300 grid place-items-center">
+        <div class="w-[820px] h-[400px] bg-gray-700 rounded-full relative">
+          <div class="w-60 h-60 bg-blue-700 rounded-full relative top-5 left-5">
+            <div
+              class="absolute animate-bounce h-20 w-20 top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 bg-red-400 rounded-full"
+            >
+              <span
+                class="absolute top-2/4 left-2/4 -translate-y-2/4 -translate-x-1/4 bg-red-700 rounded-full h-5 w-5"
+              >
+              </span>
+            </div>
+          </div>
+
+          <div
+            class="w-60 h-60 bg-blue-700 rounded-full absolute top-5 right-5"
+          >
+            <div
+              class="absolute animate-bounce h-20 w-20 top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 bg-red-400 rounded-full"
+            >
+              <span
+                class="absolute top-2/4 left-2/4 -translate-y-2/4 -translate-x-1/4 bg-red-700 rounded-full h-5 w-5"
+              >
+              </span>
+            </div>
+          </div>
+          <span
+            class="absolute top-2/4 left-2/4 -translate-y-2/4 -translate-x-1/4 bg-red-700 rounded-full h-5 w-5"
+          >
+          </span>
+          <span
+            class="absolute top-3/4 left-2/4 -translate-y-2/4 -translate-x-2/4 bg-red-700 rounded-full h-5 w-20 group hover:h-20 hover:w-40"
+          >
+            <span
+              class="absolute top-2/4 left-2/4 -translate-y-2/4 -translate-x-1/4 bg-gray-100 rounded-full h-5 w-1/4 hidden group-hover:block"
+            >
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 <script>
