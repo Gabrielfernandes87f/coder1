@@ -53,25 +53,33 @@
                 class="carousel-item relative w-full snap-always snap-center w-[120px]"
               >
                 <div>
-                  <label for="my-modal-11" class="modal-button"
+                  <label for="my-modal-17" class="modal-button"
                     ><img src="ialy.svg" @click="storys" class="w-full"
                   /></label>
                   <!-- Put this part before </body> tag -->
                   <input
                     type="checkbox"
-                    id="my-modal-11"
+                    id="my-modal-17"
                     class="modal-toggle"
                   />
                   <label
-                    for="my-modal-11"
+                    for="my-modal-17"
                     class="modal bg-gray-800 cursor-pointer"
                   >
-                    <label class="modal-box relative" for="my-modal-11">
+                    <label class="modal-box relative" for="my-modal-17">
                       <label
-                        for="my-modal-11"
+                        for="my-modal-17"
                         class="btn btn-sm btn-circle absolute right-2 top-2"
                         >✕</label
                       >
+                      <label
+                        class="btn-sm btn-circle absolute left-2 top-2 flex"
+                      >
+                        <div class="flex">
+                          <img src="ialy.svg" class="w-full" />
+                          <div class="mt-1">dev_bi@</div>
+                        </div>
+                      </label>
                       <h3 class="text-lg font-bold">
                         <div class="carousel w-full snap-always snap-center">
                           <div id="storys1" class="carousel-item w-full">
@@ -105,25 +113,37 @@
                 class="carousel-item relative w-full snap-always snap-center w-[120px]"
               >
                 <div>
-                  <label for="my-modal-9" class="modal-button"
-                    ><img src="leo.svg" class="w-full"
+                  <label for="my-modal-11" class="modal-button"
+                    ><img src="kaio.svg" class="w-full"
                   /></label>
                   <!-- Put this part before </body> tag -->
-                  <input type="checkbox" id="my-modal-9" class="modal-toggle" />
+                  <input
+                    type="checkbox"
+                    id="my-modal-11"
+                    class="modal-toggle"
+                  />
                   <label for="my-modal-11" class="modal cursor-pointer">
                     <label class="modal-box relative" for="">
                       <label
-                        for="my-modal-9"
+                        for="my-modal-11"
                         class="btn btn-sm btn-circle absolute right-2 top-2"
                         >✕</label
                       >
+                      <label
+                        class="btn-sm btn-circle absolute left-2 top-2 flex"
+                      >
+                        <div class="flex">
+                          <img src="kaio.svg" class="w-full" />
+                          <div class="mt-1">dev_react</div>
+                        </div>
+                      </label>
                       <h3 class="text-lg font-bold">
                         <div class="carousel w-full snap-always snap-center">
                           <div id="storys1" class="carousel-item w-full">
-                            <img src="ialy.svg" class="w-full" />
+                            <img src="kaio.svg" class="w-full" />
                           </div>
                           <div id="storys2" class="carousel-item w-full">
-                            <img src="kaio.svg" class="w-full" />
+                            <img src="ialy.svg" class="w-full" />
                           </div>
                           <div id="storys3" class="carousel-item w-full">
                             <img src="leo.svg" class="w-full" />
@@ -149,22 +169,30 @@
                 class="carousel-item relative w-full snap-always snap-center w-[120px]"
               >
                 <div>
-                  <label for="my-modal-11" class="modal-button"
+                  <label for="my-modal-23" class="modal-button"
                     ><img src="ialy.svg" class="w-full" />
                   </label>
                   <!-- Put this part before </body> tag -->
                   <input
                     type="checkbox"
-                    id="my-modal-11"
+                    id="my-modal-23"
                     class="modal-toggle"
                   />
-                  <label for="my-modal-11" class="modal cursor-pointer">
+                  <label for="my-modal-23" class="modal cursor-pointer">
                     <label class="modal-box relative" for="">
                       <label
-                        for="my-modal-11"
+                        for="my-modal-23"
                         class="btn btn-sm btn-circle absolute right-2 top-2"
                         >✕</label
                       >
+                      <label
+                        class="btn-sm btn-circle absolute left-2 top-2 flex"
+                      >
+                        <div class="flex">
+                          <img src="ialy.svg" class="w-full" />
+                          <div class="mt-1">dev_bi@</div>
+                        </div>
+                      </label>
                       <h3 class="text-lg font-bold">
                         <div class="carousel w-full snap-always snap-center">
                           <div id="storys1" class="carousel-item w-full">
@@ -197,22 +225,86 @@
                 class="carousel-item relative w-full snap-always snap-center w-[120px]"
               >
                 <div>
-                  <label for="my-modal-11" class="modal-button"
+                  <label for="my-modal-18" class="modal-button"
+                    ><img src="leo.svg" class="w-full"
+                  /></label>
+                  <!-- Put this part before </body> tag -->
+                  <input
+                    type="checkbox"
+                    id="my-modal-18"
+                    class="modal-toggle"
+                  />
+                  <label for="my-modal-18" class="modal cursor-pointer">
+                    <label class="modal-box relative" for="">
+                      <label
+                        for="my-modal-18"
+                        class="btn btn-sm btn-circle absolute right-2 top-2"
+                        >✕</label
+                      >
+                      <label
+                        class="btn-sm btn-circle absolute left-2 top-2 flex"
+                      >
+                        <div class="flex">
+                          <img src="leo.svg" class="w-full" />
+                          <div class="mt-1">dev_fernandes</div>
+                        </div>
+                      </label>
+                      <h3 class="text-lg font-bold">
+                        <div class="carousel w-full snap-always snap-center">
+                          <div id="storys1" class="carousel-item w-full">
+                            <img src="leo.svg" class="w-full" />
+                          </div>
+                          <div id="storys2" class="carousel-item w-full">
+                            <img src="kaio.svg" class="w-full" />
+                          </div>
+                          <div id="storys3" class="carousel-item w-full">
+                            <img src="ialy.svg" class="w-full" />
+                          </div>
+                          <div id="storys4" class="carousel-item w-full">
+                            <img src="eu.svg" class="w-full" />
+                          </div>
+                        </div>
+                        <div class="flex justify-center w-full py-2 gap-2">
+                          <a href="#storys1" class="btn btn-xs">1</a>
+                          <a href="#storys2" class="btn btn-xs">2</a>
+                          <a href="#storys3" class="btn btn-xs">3</a>
+                          <a href="#storys4" class="btn btn-xs">4</a>
+                        </div>
+                      </h3>
+                      <p class="py-4 text-center">meus storys</p>
+                    </label>
+                  </label>
+                </div>
+              </div>
+              <div
+                id="slide1"
+                class="carousel-item relative w-full snap-always snap-center w-[120px]"
+              >
+                <div>
+                  <label for="my-modal-20" class="modal-button"
                     ><img src="ialy.svg" class="w-full"
                   /></label>
                   <!-- Put this part before </body> tag -->
                   <input
                     type="checkbox"
-                    id="my-modal-11"
+                    id="my-modal-20"
                     class="modal-toggle"
                   />
-                  <label for="my-modal-11" class="modal cursor-pointer">
+                  <label for="my-modal-20" class="modal cursor-pointer">
                     <label class="modal-box relative" for="">
                       <label
-                        for="my-modal-11"
+                        for="my-modal-20"
                         class="btn btn-sm btn-circle absolute right-2 top-2"
                         >✕</label
                       >
+                      <label
+                        class="btn-sm btn-circle absolute left-2 top-2 flex"
+                      >
+                        <div class="flex">
+                          <img src="ialy.svg" class="w-full" />
+                          <div class="mt-1">dev_bi@</div>
+                        </div>
+                      </label>
                       <h3 class="text-lg font-bold">
                         <div class="carousel w-full snap-always snap-center">
                           <div id="storys1" class="carousel-item w-full">
@@ -245,32 +337,40 @@
                 class="carousel-item relative w-full snap-always snap-center w-[120px]"
               >
                 <div>
-                  <label for="my-modal-11" class="modal-button"
-                    ><img src="ialy.svg" class="w-full"
+                  <label for="my-modal-22" class="modal-button"
+                    ><img src="leo.svg" class="w-full"
                   /></label>
                   <!-- Put this part before </body> tag -->
                   <input
                     type="checkbox"
-                    id="my-modal-11"
+                    id="my-modal-22"
                     class="modal-toggle"
                   />
-                  <label for="my-modal-11" class="modal cursor-pointer">
+                  <label for="my-modal-22" class="modal cursor-pointer">
                     <label class="modal-box relative" for="">
                       <label
-                        for="my-modal-11"
+                        for="my-modal-22"
                         class="btn btn-sm btn-circle absolute right-2 top-2"
                         >✕</label
                       >
+                      <label
+                        class="btn-sm btn-circle absolute left-2 top-2 flex"
+                      >
+                        <div class="flex">
+                          <img src="leo.svg" class="w-full" />
+                          <div class="mt-1">dev_fernandes</div>
+                        </div>
+                      </label>
                       <h3 class="text-lg font-bold">
                         <div class="carousel w-full snap-always snap-center">
                           <div id="storys1" class="carousel-item w-full">
-                            <img src="ialy.svg" class="w-full" />
+                            <img src="leo.svg" class="w-full" />
                           </div>
                           <div id="storys2" class="carousel-item w-full">
                             <img src="kaio.svg" class="w-full" />
                           </div>
                           <div id="storys3" class="carousel-item w-full">
-                            <img src="leo.svg" class="w-full" />
+                            <img src="ialy.svg" class="w-full" />
                           </div>
                           <div id="storys4" class="carousel-item w-full">
                             <img src="eu.svg" class="w-full" />
@@ -293,72 +393,40 @@
                 class="carousel-item relative w-full snap-always snap-center w-[120px]"
               >
                 <div>
-                  <label for="my-modal-9" class="modal-button"
+                  <label for="my-modal-22" class="modal-button"
                     ><img src="leo.svg" class="w-full"
                   /></label>
                   <!-- Put this part before </body> tag -->
-                  <input type="checkbox" id="my-modal-9" class="modal-toggle" />
-                  <label for="my-modal-9" class="modal cursor-pointer">
+                  <input
+                    type="checkbox"
+                    id="my-modal-22"
+                    class="modal-toggle"
+                  />
+                  <label for="my-modal-22" class="modal cursor-pointer">
                     <label class="modal-box relative" for="">
                       <label
-                        for="my-modal-9"
+                        for="my-modal-22"
                         class="btn btn-sm btn-circle absolute right-2 top-2"
                         >✕</label
                       >
+                      <label
+                        class="btn-sm btn-circle absolute left-2 top-2 flex"
+                      >
+                        <div class="flex">
+                          <img src="leo.svg" class="w-full" />
+                          <div class="mt-1">dev_fernandes</div>
+                        </div>
+                      </label>
                       <h3 class="text-lg font-bold">
                         <div class="carousel w-full snap-always snap-center">
                           <div id="storys1" class="carousel-item w-full">
-                            <img src="ialy.svg" class="w-full" />
+                            <img src="leo.svg" class="w-full" />
                           </div>
                           <div id="storys2" class="carousel-item w-full">
                             <img src="kaio.svg" class="w-full" />
                           </div>
                           <div id="storys3" class="carousel-item w-full">
-                            <img src="leo.svg" class="w-full" />
-                          </div>
-                          <div id="storys4" class="carousel-item w-full">
-                            <img src="eu.svg" class="w-full" />
-                          </div>
-                        </div>
-                        <div class="flex justify-center w-full py-2 gap-2">
-                          <a href="#storys1" class="btn btn-xs">1</a>
-                          <a href="#storys2" class="btn btn-xs">2</a>
-                          <a href="#storys3" class="btn btn-xs">3</a>
-                          <a href="#storys4" class="btn btn-xs">4</a>
-                        </div>
-                      </h3>
-                      <p class="py-4 text-center">meus storys</p>
-                    </label>
-                  </label>
-                </div>
-              </div>
-              <div
-                id="slide1"
-                class="carousel-item relative w-full snap-always snap-center w-[120px]"
-              >
-                <div>
-                  <label for="my-modal-9" class="modal-button"
-                    ><img src="leo.svg" class="w-full"
-                  /></label>
-                  <!-- Put this part before </body> tag -->
-                  <input type="checkbox" id="my-modal-9" class="modal-toggle" />
-                  <label for="my-modal-9" class="modal cursor-pointer">
-                    <label class="modal-box relative" for="">
-                      <label
-                        for="my-modal-9"
-                        class="btn btn-sm btn-circle absolute right-2 top-2"
-                        >✕</label
-                      >
-                      <h3 class="text-lg font-bold">
-                        <div class="carousel w-full snap-always snap-center">
-                          <div id="storys1" class="carousel-item w-full">
                             <img src="ialy.svg" class="w-full" />
-                          </div>
-                          <div id="storys2" class="carousel-item w-full">
-                            <img src="kaio.svg" class="w-full" />
-                          </div>
-                          <div id="storys3" class="carousel-item w-full">
-                            <img src="leo.svg" class="w-full" />
                           </div>
                           <div id="storys4" class="carousel-item w-full">
                             <img src="eu.svg" class="w-full" />
@@ -959,34 +1027,34 @@
                       class="btn btn-sm btn-circle absolute right-2 top-2"
                       >✕</label
                     >
-                    <h3 class="text-lg font-bold">voltar?</h3>
+
                     <div
                       class="hover:bg-gray-800 flex justify-center rounded-lg text-red-400 hover:text-blue-300"
                     >
-                      <nuxt-link to="/formas" class="py-4 text-lg"
-                        >Vejos algumas formas que eu fiz usando
-                        tailwind</nuxt-link
-                      >
+                      <nuxt-link to="/formas" class="py-4 text-lg">
+                        Alien feito apenas com tailwind
+                      </nuxt-link>
                     </div>
                     <div
                       class="hover:bg-gray-800 flex justify-center rounded-lg text-red-400 hover:text-blue-300"
                     >
                       <nuxt-link to="/contato" class="py-4 text-lg"
-                        >Formulario de contato, tailwind</nuxt-link
+                        >Formulario de contato, usei o formsubmit</nuxt-link
                       >
                     </div>
                     <div
                       class="hover:bg-gray-800 flex justify-center rounded-lg text-red-400 hover:text-blue-300"
                     >
                       <nuxt-link to="/login" class="py-4 text-lg"
-                        >tela de login</nuxt-link
+                        >Tela de login, apenas o layout sem funcionalidade
+                        ainda</nuxt-link
                       >
                     </div>
                     <div
                       class="hover:bg-gray-800 flex justify-center rounded-lg text-red-400 hover:text-blue-300"
                     >
                       <nuxt-link to="/coder" class="py-4 text-lg"
-                        >coder</nuxt-link
+                        >coder.. trabalhando em outros projetos</nuxt-link
                       >
                     </div>
                   </label>
