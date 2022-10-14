@@ -62,7 +62,10 @@
                     id="my-modal-11"
                     class="modal-toggle"
                   />
-                  <label for="my-modal-11" class="modal cursor-pointer">
+                  <label
+                    for="my-modal-11"
+                    class="modal bg-gray-800 cursor-pointer"
+                  >
                     <label class="modal-box relative" for="">
                       <label
                         for="my-modal-11"
@@ -71,24 +74,24 @@
                       >
                       <h3 class="text-lg font-bold">
                         <div class="carousel w-full snap-always snap-center">
-                          <div id="item1" class="carousel-item w-full">
+                          <div id="storys1" class="carousel-item w-full">
                             <img src="ialy.svg" class="w-full" />
                           </div>
-                          <div id="item2" class="carousel-item w-full">
+                          <div id="storys2" class="carousel-item w-full">
                             <img src="kaio.svg" class="w-full" />
                           </div>
-                          <div id="item3" class="carousel-item w-full">
+                          <div id="storys3" class="carousel-item w-full">
                             <img src="leo.svg" class="w-full" />
                           </div>
-                          <div id="item4" class="carousel-item w-full">
+                          <div id="storys4" class="carousel-item w-full">
                             <img src="eu.svg" class="w-full" />
                           </div>
                         </div>
                         <div class="flex justify-center w-full py-2 gap-2">
-                          <a href="#item1" class="btn btn-xs">1</a>
-                          <a href="#item2" class="btn btn-xs">2</a>
-                          <a href="#item3" class="btn btn-xs">3</a>
-                          <a href="#item4" class="btn btn-xs">4</a>
+                          <a href="#storys1" class="btn btn-xs">1</a>
+                          <a href="#storys2" class="btn btn-xs">2</a>
+                          <a href="#storys3" class="btn btn-xs">3</a>
+                          <a href="#storys4" class="btn btn-xs">4</a>
                         </div>
                       </h3>
                       <p class="py-4 text-center">meus storys</p>
@@ -869,7 +872,9 @@ export default {
       window.navigator.vibrate(200);
     },
     storys() {
-      console.log("passar storys");
+      setTimeout(function () {
+        console.log("2");
+      }, 2000);
     },
   },
 };
