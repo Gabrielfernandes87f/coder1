@@ -1064,8 +1064,7 @@
                       class="hover:bg-gray-800 flex justify-center rounded-lg text-red-400 hover:text-blue-300"
                     >
                       <nuxt-link to="/login" class="py-4 text-lg"
-                        >Tela de login, apenas o layout sem funcionalidade
-                        ainda</nuxt-link
+                        >Tela de login</nuxt-link
                       >
                     </div>
                     <div
