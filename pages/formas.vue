@@ -40,7 +40,7 @@
     <div>
       <div class="h-screen bg-blue-300 grid place-items-center">
         <div
-          class="w-[70vw] max-w-[820px] h-[400px] bg-gray-700 rounded-full relative"
+          class="w-[70vw] max-w-[650px] h-[400px] bg-gray-700 rounded-full relative"
         >
           <div class="w-60 h-60 bg-blue-700 rounded-full relative top-5 left-5">
             <div
