@@ -122,7 +122,10 @@
                     id="my-modal-11"
                     class="modal-toggle"
                   />
-                  <label for="my-modal-11" class="modal cursor-pointer">
+                  <label
+                    for="my-modal-11"
+                    class="modal cursor-pointer bg-gray-800"
+                  >
                     <label class="modal-box relative" for="">
                       <label
                         for="my-modal-11"
@@ -178,7 +181,10 @@
                     id="my-modal-23"
                     class="modal-toggle"
                   />
-                  <label for="my-modal-23" class="modal cursor-pointer">
+                  <label
+                    for="my-modal-23"
+                    class="modal cursor-pointer bg-gray-800"
+                  >
                     <label class="modal-box relative" for="">
                       <label
                         for="my-modal-23"
@@ -225,19 +231,22 @@
                 class="carousel-item relative w-full snap-always snap-center w-[120px]"
               >
                 <div>
-                  <label for="my-modal-18" class="modal-button"
+                  <label for="my-modal-31" class="modal-button"
                     ><img src="leo.svg" class="w-full"
                   /></label>
                   <!-- Put this part before </body> tag -->
                   <input
                     type="checkbox"
-                    id="my-modal-18"
+                    id="my-modal-31"
                     class="modal-toggle"
                   />
-                  <label for="my-modal-18" class="modal cursor-pointer">
+                  <label
+                    for="my-modal-31"
+                    class="modal cursor-pointer bg-gray-800"
+                  >
                     <label class="modal-box relative" for="">
                       <label
-                        for="my-modal-18"
+                        for="my-modal-31"
                         class="btn btn-sm btn-circle absolute right-2 top-2"
                         >✕</label
                       >
@@ -290,7 +299,10 @@
                     id="my-modal-20"
                     class="modal-toggle"
                   />
-                  <label for="my-modal-20" class="modal cursor-pointer">
+                  <label
+                    for="my-modal-20"
+                    class="modal cursor-pointer bg-gray-800"
+                  >
                     <label class="modal-box relative" for="">
                       <label
                         for="my-modal-20"
@@ -337,19 +349,22 @@
                 class="carousel-item relative w-full snap-always snap-center w-[120px]"
               >
                 <div>
-                  <label for="my-modal-22" class="modal-button"
+                  <label for="my-modal-35" class="modal-button"
                     ><img src="leo.svg" class="w-full"
                   /></label>
                   <!-- Put this part before </body> tag -->
                   <input
                     type="checkbox"
-                    id="my-modal-22"
+                    id="my-modal-35"
                     class="modal-toggle"
                   />
-                  <label for="my-modal-22" class="modal cursor-pointer">
-                    <label class="modal-box relative" for="">
+                  <label
+                    for="my-modal-35"
+                    class="modal cursor-pointer bg-gray-800"
+                  >
+                    <label class="modal-box relative" for="my-modal-35">
                       <label
-                        for="my-modal-22"
+                        for="my-modal-35"
                         class="btn btn-sm btn-circle absolute right-2 top-2"
                         >✕</label
                       >
@@ -393,19 +408,22 @@
                 class="carousel-item relative w-full snap-always snap-center w-[120px]"
               >
                 <div>
-                  <label for="my-modal-22" class="modal-button"
+                  <label for="my-modal-30" class="modal-button"
                     ><img src="leo.svg" class="w-full"
                   /></label>
                   <!-- Put this part before </body> tag -->
                   <input
                     type="checkbox"
-                    id="my-modal-22"
+                    id="my-modal-30"
                     class="modal-toggle"
                   />
-                  <label for="my-modal-22" class="modal cursor-pointer">
-                    <label class="modal-box relative" for="">
+                  <label
+                    for="my-modal-30"
+                    class="modal cursor-pointer bg-gray-800"
+                  >
+                    <label class="modal-box relative" for="my-modal-30">
                       <label
-                        for="my-modal-22"
+                        for="my-modal-30"
                         class="btn btn-sm btn-circle absolute right-2 top-2"
                         >✕</label
                       >
