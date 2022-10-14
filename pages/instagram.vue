@@ -66,7 +66,7 @@
                     for="my-modal-11"
                     class="modal bg-gray-800 cursor-pointer"
                   >
-                    <label class="modal-box relative" for="">
+                    <label class="modal-box relative" for="my-modal-11">
                       <label
                         for="my-modal-11"
                         class="btn btn-sm btn-circle absolute right-2 top-2"
@@ -118,7 +118,26 @@
                         >✕</label
                       >
                       <h3 class="text-lg font-bold">
-                        <img src="leo.svg" class="w-full" />
+                        <div class="carousel w-full snap-always snap-center">
+                          <div id="storys1" class="carousel-item w-full">
+                            <img src="ialy.svg" class="w-full" />
+                          </div>
+                          <div id="storys2" class="carousel-item w-full">
+                            <img src="kaio.svg" class="w-full" />
+                          </div>
+                          <div id="storys3" class="carousel-item w-full">
+                            <img src="leo.svg" class="w-full" />
+                          </div>
+                          <div id="storys4" class="carousel-item w-full">
+                            <img src="eu.svg" class="w-full" />
+                          </div>
+                        </div>
+                        <div class="flex justify-center w-full py-2 gap-2">
+                          <a href="#storys1" class="btn btn-xs">1</a>
+                          <a href="#storys2" class="btn btn-xs">2</a>
+                          <a href="#storys3" class="btn btn-xs">3</a>
+                          <a href="#storys4" class="btn btn-xs">4</a>
+                        </div>
                       </h3>
                       <p class="py-4 text-center">meus storys</p>
                     </label>
@@ -147,7 +166,26 @@
                         >✕</label
                       >
                       <h3 class="text-lg font-bold">
-                        <img src="ialy.svg" class="w-full" />
+                        <div class="carousel w-full snap-always snap-center">
+                          <div id="storys1" class="carousel-item w-full">
+                            <img src="ialy.svg" class="w-full" />
+                          </div>
+                          <div id="storys2" class="carousel-item w-full">
+                            <img src="kaio.svg" class="w-full" />
+                          </div>
+                          <div id="storys3" class="carousel-item w-full">
+                            <img src="leo.svg" class="w-full" />
+                          </div>
+                          <div id="storys4" class="carousel-item w-full">
+                            <img src="eu.svg" class="w-full" />
+                          </div>
+                        </div>
+                        <div class="flex justify-center w-full py-2 gap-2">
+                          <a href="#storys1" class="btn btn-xs">1</a>
+                          <a href="#storys2" class="btn btn-xs">2</a>
+                          <a href="#storys3" class="btn btn-xs">3</a>
+                          <a href="#storys4" class="btn btn-xs">4</a>
+                        </div>
                       </h3>
                       <p class="py-4 text-center">meus storys</p>
                     </label>
@@ -176,7 +214,26 @@
                         >✕</label
                       >
                       <h3 class="text-lg font-bold">
-                        <img src="ialy.svg" class="w-full" />
+                        <div class="carousel w-full snap-always snap-center">
+                          <div id="storys1" class="carousel-item w-full">
+                            <img src="ialy.svg" class="w-full" />
+                          </div>
+                          <div id="storys2" class="carousel-item w-full">
+                            <img src="kaio.svg" class="w-full" />
+                          </div>
+                          <div id="storys3" class="carousel-item w-full">
+                            <img src="leo.svg" class="w-full" />
+                          </div>
+                          <div id="storys4" class="carousel-item w-full">
+                            <img src="eu.svg" class="w-full" />
+                          </div>
+                        </div>
+                        <div class="flex justify-center w-full py-2 gap-2">
+                          <a href="#storys1" class="btn btn-xs">1</a>
+                          <a href="#storys2" class="btn btn-xs">2</a>
+                          <a href="#storys3" class="btn btn-xs">3</a>
+                          <a href="#storys4" class="btn btn-xs">4</a>
+                        </div>
                       </h3>
                       <p class="py-4 text-center">meus storys</p>
                     </label>
@@ -205,7 +262,26 @@
                         >✕</label
                       >
                       <h3 class="text-lg font-bold">
-                        <img src="ialy.svg" class="w-full" />
+                        <div class="carousel w-full snap-always snap-center">
+                          <div id="storys1" class="carousel-item w-full">
+                            <img src="ialy.svg" class="w-full" />
+                          </div>
+                          <div id="storys2" class="carousel-item w-full">
+                            <img src="kaio.svg" class="w-full" />
+                          </div>
+                          <div id="storys3" class="carousel-item w-full">
+                            <img src="leo.svg" class="w-full" />
+                          </div>
+                          <div id="storys4" class="carousel-item w-full">
+                            <img src="eu.svg" class="w-full" />
+                          </div>
+                        </div>
+                        <div class="flex justify-center w-full py-2 gap-2">
+                          <a href="#storys1" class="btn btn-xs">1</a>
+                          <a href="#storys2" class="btn btn-xs">2</a>
+                          <a href="#storys3" class="btn btn-xs">3</a>
+                          <a href="#storys4" class="btn btn-xs">4</a>
+                        </div>
                       </h3>
                       <p class="py-4 text-center">meus storys</p>
                     </label>
@@ -230,7 +306,26 @@
                         >✕</label
                       >
                       <h3 class="text-lg font-bold">
-                        <img src="leo.svg" class="w-full" />
+                        <div class="carousel w-full snap-always snap-center">
+                          <div id="storys1" class="carousel-item w-full">
+                            <img src="ialy.svg" class="w-full" />
+                          </div>
+                          <div id="storys2" class="carousel-item w-full">
+                            <img src="kaio.svg" class="w-full" />
+                          </div>
+                          <div id="storys3" class="carousel-item w-full">
+                            <img src="leo.svg" class="w-full" />
+                          </div>
+                          <div id="storys4" class="carousel-item w-full">
+                            <img src="eu.svg" class="w-full" />
+                          </div>
+                        </div>
+                        <div class="flex justify-center w-full py-2 gap-2">
+                          <a href="#storys1" class="btn btn-xs">1</a>
+                          <a href="#storys2" class="btn btn-xs">2</a>
+                          <a href="#storys3" class="btn btn-xs">3</a>
+                          <a href="#storys4" class="btn btn-xs">4</a>
+                        </div>
                       </h3>
                       <p class="py-4 text-center">meus storys</p>
                     </label>
@@ -255,7 +350,26 @@
                         >✕</label
                       >
                       <h3 class="text-lg font-bold">
-                        <img src="leo.svg" class="w-full" />
+                        <div class="carousel w-full snap-always snap-center">
+                          <div id="storys1" class="carousel-item w-full">
+                            <img src="ialy.svg" class="w-full" />
+                          </div>
+                          <div id="storys2" class="carousel-item w-full">
+                            <img src="kaio.svg" class="w-full" />
+                          </div>
+                          <div id="storys3" class="carousel-item w-full">
+                            <img src="leo.svg" class="w-full" />
+                          </div>
+                          <div id="storys4" class="carousel-item w-full">
+                            <img src="eu.svg" class="w-full" />
+                          </div>
+                        </div>
+                        <div class="flex justify-center w-full py-2 gap-2">
+                          <a href="#storys1" class="btn btn-xs">1</a>
+                          <a href="#storys2" class="btn btn-xs">2</a>
+                          <a href="#storys3" class="btn btn-xs">3</a>
+                          <a href="#storys4" class="btn btn-xs">4</a>
+                        </div>
                       </h3>
                       <p class="py-4 text-center">meus storys</p>
                     </label>
