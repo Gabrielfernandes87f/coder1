@@ -38,10 +38,12 @@
           <p>todos-id: {{ todos.id }}</p>
         </div>
         <div class="mt-3">
-          <button class="btn btn-active" @click="reserse()">reverse</button>
-          <button class="btn btn-active" @click="done()">done</button>
-          <button class="btn btn-active" @click="gerar(10)">gerar</button>
-          <button class="btn btn-active" @click="random()">ramdom</button>
+          <button class="btn btn-active my-5" @click="reserse()">
+            reverse
+          </button>
+          <button class="btn btn-active my-5" @click="done()">done</button>
+          <button class="btn btn-active my-5" @click="gerar(10)">gerar</button>
+          <button class="btn btn-active my-5" @click="random()">ramdom</button>
         </div>
         <p>random: {{ rand }}</p>
         <p>user: {{ user }}</p>
@@ -58,10 +60,10 @@ export default {
   data() {
     return {
       todos: [
-        { id: "1", text: "Vuex", done: true, stock: 0 },
+        { id: "1", text: "Vuex", done: true, stock: 1 },
         { id: "2", text: "Pinia", done: true, stock: 5 },
         { id: "3", text: "tailwind", done: false, stock: 1 },
-        { id: "4", text: "PHP", done: true, stock: 0 },
+        { id: "4", text: "PHP", done: true, stock: 3 },
         { id: "5", text: "Docker", done: true, stock: 0 },
         { id: "6", text: "Mysql", done: false, stock: 8 },
       ],
@@ -97,7 +99,7 @@ export default {
         // removendo o item que ja foi add ao usuario
         this.cod.splice(index, 1);
       } else {
-        this.rand = "tem nao items pra add";
+        this.rand = "Não tem items para add";
       }
     },
   },
