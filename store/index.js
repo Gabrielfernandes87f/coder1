@@ -1,25 +1,23 @@
 export const state = () => ({
-  api: '',
-  cep: '01001000'
+  cep: []
 })
 
 export const getters = {
-   api(state) {
-    return state.api
+   baseCep(state) {
+    return state.cep
   }
 }
 
 export const mutations = {
-  SET_CEP_API(state, payload,) {
-    state.api = payload
+  SET_CEP(state, payload) {
+    state.cep = payload
   }
 
 }
 
 export const actions = {
-  async fetchApi({ commit }) {
-    cep = "01001000"
-    const api = await this.$axios.$get(`https://viacep.com.br/ws/${cep}/json/`)
-    commit('SET_CEP_API', api)
+  async fetchCep({ commit }) {
+    const cep = await this.$axios.$get('https://viacep.com.br/ws/01001000/json/')
+    commit('SET_CEP', cep)
   },
 }

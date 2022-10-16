@@ -48,12 +48,12 @@
           </div>
           <div class="text-lg absolute bottom-5 left-2">
             <p class="badge text-2xl p-5">
-              {{ $store.getters.api.logradouro }}
+              {{ this.$store.getters.baseCep.logradouro }}
             </p>
             <br />
-            <p class="badge">{{ $store.getters.api.localidade }}</p>
-            <p class="badge">{{ $store.getters.api.uf }}</p>
-            <p class="badge">{{ $store.getters.api.ddd }}</p>
+            <p class="badge">{{ this.$store.getters.baseCep.localidade }}</p>
+            <p class="badge">{{ this.$store.getters.baseCep.uf }}</p>
+            <p class="badge">{{ this.$store.getters.baseCep.ddd }}</p>
             <p class="badge">api: {{ api }}</p>
           </div>
         </div>
@@ -66,22 +66,15 @@
 export default {
   data() {
     return {
-      api: "",
+      api: [],
     };
   },
   created() {
-    this.$store.dispatch("fetchApi");
+    this.$store.dispatch("fetchCep");
   },
   computed: {
-    async allPokemon() {
-      return await this.$store.getters.api;
-    },
-  },
-  methods: {
-    async buscarCep() {
-      await api.create({
-        cep: this.cep,
-      });
+    async baseCep() {
+      return await this.$store.getters.baseCep;
     },
   },
 };
