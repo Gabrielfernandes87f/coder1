@@ -18,8 +18,10 @@
         >Login</nuxt-link
       >
     </div>
-    <div class="hero min-h-screen">
-      <div class="card w-1/3 min-h-[70vh] bg-base-100 shadow-xl p-5">
+    <div class="hero min-h-screen min-w-screen px-10 py-20">
+      <div
+        class="card bg-base-100 shadow-xl p-5 sm:w-full md:w-full lg:w-6/12 max-w-full"
+      >
         <p>Treinando javascript</p>
         <div v-for="todos in todos" :key="todos.id">
           <p>todos-id: {{ todos.id }}</p>
