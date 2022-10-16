@@ -38,7 +38,7 @@
       <div>
         <a
           class="btn badge btn-outline btn-warning"
-          href="http://192.168.0.5:3000/formas/#alien"
+          href="https://coder1-gabrielfernandes87f.vercel.app/formas/#alien"
         >
           Olhe mais em baixo ⬇️
         </a>
