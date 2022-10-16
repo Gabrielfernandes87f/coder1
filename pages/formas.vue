@@ -36,7 +36,12 @@
         ></span>
       </div>
       <div>
-        <nuxt-link to="/#alien"> Olhe mais em baixo ⬇️ </nuxt-link>
+        <a
+          class="btn badge btn-outline btn-warning"
+          href="http://192.168.0.5:3000/formas/#alien"
+        >
+          Olhe mais em baixo ⬇️
+        </a>
       </div>
     </div>
     <div>
