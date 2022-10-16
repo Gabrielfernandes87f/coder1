@@ -18,21 +18,33 @@
         >Login</nuxt-link
       >
     </div>
+
     <div class="hero min-h-screen min-w-screen px-10 py-20">
       <div
         class="card bg-base-100 shadow-xl p-5 sm:w-full md:w-full lg:w-6/12 max-w-full"
       >
         <p>Treinando javascript</p>
+        <div
+          class="absolute top-2 right-4 bg-gray-800 px-4 pt-2 pb-2 rounded-lg border-solid border-2 border-indigo-500 group hover:bg-blue-400"
+        >
+          <a
+            class="text-blue-400 font-bold group-hover:text-gray-800 transition delay-100 duration-300 ease-in-out"
+            target="_blank"
+            href="https://codepen.io"
+            >coding</a
+          >
+        </div>
         <div v-for="todos in todos" :key="todos.id">
           <p>todos-id: {{ todos.id }}</p>
         </div>
         <div class="mt-3">
           <button class="btn btn-active" @click="reserse()">reverse</button>
           <button class="btn btn-active" @click="done()">done</button>
-          <button class="btn btn-active" @click="gerar(100000)">gerar</button>
+          <button class="btn btn-active" @click="gerar(10)">gerar</button>
           <button class="btn btn-active" @click="random()">ramdom</button>
         </div>
         <p>random: {{ rand }}</p>
+        <p>user: {{ user }}</p>
 
         <p>{{ todos }}</p>
         <p>cod: {{ cod }}</p>
@@ -53,8 +65,9 @@ export default {
         { id: "5", text: "Docker", done: true, stock: 0 },
         { id: "6", text: "Mysql", done: false, stock: 8 },
       ],
-      cod: [1, 2, 4, 5, 6, 7, 8],
+      cod: [],
       rand: [],
+      user: [],
     };
   },
   methods: {
@@ -67,12 +80,24 @@ export default {
     gerar(n) {
       let newCod = Array.from(Array(n).keys());
       this.cod = newCod;
+
       console.log(newCod);
     },
     random() {
-      let rand = Math.floor(Math.random() * this.cod.length);
-      this.rand = rand;
-      console.log(this.rand);
+      console.log(this.cod.length);
+      if (this.cod.length >= 1) {
+        // rand numero aleatorio pegando o this.cod como base
+        let rand = Math.floor(Math.random() * this.cod.length);
+        //  atualizando o this.rand com o numero que foi gerado
+        this.rand = rand;
+        // pegando o index
+        let index = this.cod.indexOf(rand);
+        // verificar se existe
+        this.user.push(this.rand);
+        this.cod.splice(index, 1);
+      } else {
+        this.rand = "tem nao items pra add";
+      }
     },
   },
 };
