@@ -52,7 +52,7 @@
             reverse
           </button>
           <button class="btn btn-active mt-5" @click="done()">done</button>
-          <button class="btn btn-active mt-5" @click="gerar(int)">gerar</button>
+          <button class="btn btn-active mt-5" @click="gerar(101)">gerar</button>
           <button class="btn btn-active mt-5" @click="random()">ramdom</button>
         </div>
         <p>random: {{ rand }}</p>
@@ -116,7 +116,7 @@ export default {
       }
     },
     gerarInt() {
-      console.log(this.int);
+      // console.log(this.int);
     },
   },
 };
