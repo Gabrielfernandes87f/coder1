@@ -1074,8 +1074,8 @@
                     <div
                       class="hover:bg-gray-800 flex justify-center rounded-lg text-red-400 hover:text-blue-300"
                     >
-                      <nuxt-link to="/coder" class="py-4 text-lg"
-                        >coder.. trabalhando em outros projetos</nuxt-link
+                      <nuxt-link to="/js" class="py-4 text-lg"
+                        >Eu e meus codizinhos</nuxt-link
                       >
                     </div>
                   </label>
