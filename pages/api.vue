@@ -35,7 +35,7 @@
                 name="cepInput"
                 placeholder="pesquisar cep"
                 class="input border-b input-sm w-full max-w-sm border-b-4 border-t-0 border-indigo-500 text-center"
-                v-model="api"
+                v-model="cep"
               />
             </form>
           </div>
@@ -54,7 +54,7 @@
             <p class="badge">{{ this.$store.getters.baseCep.localidade }}</p>
             <p class="badge">{{ this.$store.getters.baseCep.uf }}</p>
             <p class="badge">{{ this.$store.getters.baseCep.ddd }}</p>
-            <p class="badge">api: {{ api }}</p>
+            <p class="badge">api: {{ cep }}</p>
           </div>
         </div>
       </div>
@@ -66,7 +66,7 @@
 export default {
   data() {
     return {
-      api: [],
+      cep: [],
     };
   },
   created() {
@@ -76,6 +76,9 @@ export default {
     async baseCep() {
       return await this.$store.getters.baseCep;
     },
+  },
+  buscarCep() {
+    console.log("Buscar cep");
   },
 };
 </script>
