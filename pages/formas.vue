@@ -36,7 +36,7 @@
         ></span>
       </div>
       <div>
-        <a href="/formas/#alien"> Olhe mais em baixo ⬇️ </a>
+        <nuxt-link to="/#alien"> Olhe mais em baixo ⬇️ </nuxt-link>
       </div>
     </div>
     <div>
