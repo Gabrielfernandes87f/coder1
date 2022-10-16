@@ -41,9 +41,9 @@
           <button class="btn btn-active my-5" @click="reserse()">
             reverse
           </button>
-          <button class="btn btn-active my-5" @click="done()">done</button>
-          <button class="btn btn-active my-5" @click="gerar(10)">gerar</button>
-          <button class="btn btn-active my-5" @click="random()">ramdom</button>
+          <button class="btn btn-active mt-5" @click="done()">done</button>
+          <button class="btn btn-active mt-5" @click="gerar(10)">gerar</button>
+          <button class="btn btn-active mt-5" @click="random()">ramdom</button>
         </div>
         <p>random: {{ rand }}</p>
         <p>user: {{ user }}</p>
