@@ -35,10 +35,12 @@
           class="absolute bg-gray-800 w-20 h-10 rounded-tl-[200px] rounded-tr-[400px] bottom-[10px] right-0 -rotate-[230deg] border-solid border-2 border-indigo-500"
         ></span>
       </div>
-      <div>Olhe mais em baixo ⬇️</div>
+      <div>
+        <a href="/formas/#alien"> Olhe mais em baixo ⬇️ </a>
+      </div>
     </div>
     <div>
-      <div class="h-screen bg-blue-300 grid place-items-center">
+      <div class="h-screen bg-blue-300 grid place-items-center" id="alien">
         <div
           class="w-[70vw] max-w-[650px] h-[400px] bg-gray-700 rounded-full relative"
         >
