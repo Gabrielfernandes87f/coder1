@@ -41,6 +41,7 @@
             placeholder="informe um número"
             class="input border-b input-sm w-full max-w-sm border-b-4 border-t-0 border-indigo-500 text-center"
             v-model="int"
+            @click.prevent="gerarInt"
           />
         </div>
         <div v-for="todos in todos" :key="todos.id">
@@ -51,9 +52,7 @@
             reverse
           </button>
           <button class="btn btn-active mt-5" @click="done()">done</button>
-          <button class="btn btn-active mt-5" @click="gerar({ int })">
-            gerar
-          </button>
+          <button class="btn btn-active mt-5" @click="gerar(int)">gerar</button>
           <button class="btn btn-active mt-5" @click="random()">ramdom</button>
         </div>
         <p>random: {{ rand }}</p>
@@ -82,6 +81,7 @@ export default {
       cod: [],
       rand: [],
       user: [],
+      n: 1,
       int: 1,
     };
   },
@@ -116,7 +116,6 @@ export default {
       }
     },
     gerarInt() {
-      this.int = this.int;
       console.log(this.int);
     },
   },
