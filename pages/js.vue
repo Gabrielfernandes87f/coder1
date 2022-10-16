@@ -27,13 +27,13 @@
         <div class="mt-3">
           <button class="btn btn-active" @click="reserse()">reverse</button>
           <button class="btn btn-active" @click="done()">done</button>
-          <button class="btn btn-active" @click="gerar(99999)">gerar</button>
+          <button class="btn btn-active" @click="gerar(100000)">gerar</button>
           <button class="btn btn-active" @click="random()">ramdom</button>
         </div>
-        <p>cod: {{ cod }}</p>
         <p>random: {{ rand }}</p>
 
         <p>{{ todos }}</p>
+        <p>cod: {{ cod }}</p>
       </div>
     </div>
   </div>
@@ -52,6 +52,7 @@ export default {
         { id: "6", text: "Mysql", done: false, stock: 8 },
       ],
       cod: [1, 2, 4, 5, 6, 7, 8],
+      rand: [],
     };
   },
   methods: {
@@ -67,8 +68,9 @@ export default {
       console.log(newCod);
     },
     random() {
-      var rand = Math.floor(Math.random() * this.cod.length);
-      console.log(rand);
+      let rand = Math.floor(Math.random() * this.cod.length);
+      this.rand = rand;
+      console.log(this.rand);
     },
   },
 };
