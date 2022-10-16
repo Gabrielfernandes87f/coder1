@@ -25,9 +25,9 @@
       >
         <h1>Treinando javascript</h1>
         <p class="my-10">
-          o botão "GERAR" vai criar array de números, o botão randam vai pegar
-          um numero aleatório com base nos números que foi gerado, além disso
-          ele add esse numero ao usúario e remove da variavel cod.
+          O botão "GERAR" vai criar array de números, o botão randam vai pegar
+          um número aleatório com base nos números que foi gerado, além disso
+          ele vai add esse número ao usúario e remove da variavel cod.
         </p>
 
         <div
