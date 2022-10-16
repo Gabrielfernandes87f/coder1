@@ -23,7 +23,13 @@
       <div
         class="card bg-base-100 shadow-xl p-5 sm:w-full md:w-full lg:w-6/12 max-w-full"
       >
-        <p>Treinando javascript</p>
+        <h1>Treinando javascript</h1>
+        <p class="my-10">
+          o botão "GERAR" vai criar array de números, o botão randam vai pegar
+          um numero aleatório com base nos números que foi gerado, além disso
+          ele add esse numero ao usúario e remove da variavel cod.
+        </p>
+
         <div
           class="absolute top-2 right-4 bg-gray-800 px-4 pt-2 pb-2 rounded-lg border-solid border-2 border-indigo-500 group hover:bg-blue-400"
         >
@@ -41,7 +47,7 @@
             placeholder="informe um número"
             class="input border-b input-sm w-full max-w-sm border-b-4 border-t-0 border-indigo-500 text-center"
             v-model="int"
-            @click.prevent="gerarInt"
+            @click="gerarInt"
           />
         </div>
         <div v-for="todos in todos" :key="todos.id">
@@ -53,7 +59,7 @@
           </button>
           <button class="btn btn-active mt-5" @click="done()">done</button>
           <button class="btn btn-active mt-5" @click="gerar(101)">gerar</button>
-          <button class="btn btn-active mb-5" @click="random()">ramdom</button>
+          <button class="btn btn-active mb-5" @click="random()">random</button>
         </div>
         <p>random: {{ rand }}</p>
         <p>user: {{ user }}</p>
