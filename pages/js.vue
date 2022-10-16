@@ -84,7 +84,7 @@ export default {
       console.log(newCod);
     },
     random() {
-      console.log(this.cod.length);
+      // verifica se tem items antes de todar a função
       if (this.cod.length >= 1) {
         // rand numero aleatorio pegando o this.cod como base
         let rand = Math.floor(Math.random() * this.cod.length);
@@ -92,8 +92,9 @@ export default {
         this.rand = rand;
         // pegando o index
         let index = this.cod.indexOf(rand);
-        // verificar se existe
+        // add o numero ao usuario
         this.user.push(this.rand);
+        // removendo o item que ja foi add ao usuario
         this.cod.splice(index, 1);
       } else {
         this.rand = "tem nao items pra add";
