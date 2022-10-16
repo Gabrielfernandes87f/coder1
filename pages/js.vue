@@ -53,7 +53,7 @@
           </button>
           <button class="btn btn-active mt-5" @click="done()">done</button>
           <button class="btn btn-active mt-5" @click="gerar(101)">gerar</button>
-          <button class="btn btn-active mt-5" @click="random()">ramdom</button>
+          <button class="btn btn-active mb-5" @click="random()">ramdom</button>
         </div>
         <p>random: {{ rand }}</p>
         <p>user: {{ user }}</p>
