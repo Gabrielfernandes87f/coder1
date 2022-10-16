@@ -30,7 +30,7 @@
           <a
             class="text-blue-400 font-bold group-hover:text-gray-800 transition delay-100 duration-300 ease-in-out"
             target="_blank"
-            href="https://codepen.io"
+            href="https://github.com/Gabrielfernandes87f/coder1/blob/main/pages/js.vue"
             >coding</a
           >
         </div>
