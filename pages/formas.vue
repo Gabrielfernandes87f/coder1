@@ -1,6 +1,7 @@
 <template>
   <div class="relative">
     <div
+      id="top"
       class="absolute top-2 right-4 bg-gray-800 px-4 pt-2 pb-2 rounded-lg border-solid border-2 border-indigo-500 group hover:bg-blue-400"
     >
       <nuxt-link
@@ -84,6 +85,42 @@
             >
             </span>
           </span>
+        </div>
+        <div>
+          <a
+            class="btn badge btn-outline bg-base-200 btn-warning"
+            href="https://coder1-gabrielfernandes87f.vercel.app/formas/#alien2"
+          >
+            Olhe mais em baixo ⬇️
+          </a>
+        </div>
+      </div>
+      <div>
+        <div class="h-screen bg-base-200 grid place-items-center" id="alien">
+          <div>
+            <div class="bg-base-800 grid place-items-center" id="alien">
+              <div>
+                <div class="relative">
+                  <div
+                    class="absolute top-0 left-1 bg-red-200 w-48 h-36 rotate-[-45deg] rounded-bl-[80%] rounded-tr-[50%]"
+                  >
+                    .
+                  </div>
+                  <div class="absolute bottom-0 right-1 bg-blue-800 w-48 h-36">
+                    .
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="alien2">
+            <a
+              class="btn badge btn-circle"
+              href="https://coder1-gabrielfernandes87f.vercel.app/formas/#top"
+            >
+              top ⬆️
+            </a>
+          </div>
         </div>
       </div>
     </div>

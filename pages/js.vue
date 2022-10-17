@@ -58,7 +58,7 @@
             reverse
           </button>
           <button class="btn btn-active mt-5" @click="done()">done</button>
-          <button class="btn btn-active mt-5" @click="gerar(101)">gerar</button>
+          <button class="btn btn-active mt-5" @click="gerar(int)">gerar</button>
           <button class="btn btn-active mb-5" @click="random()">random</button>
         </div>
         <p>random: {{ rand }}</p>
@@ -102,7 +102,7 @@ export default {
       let newCod = Array.from(Array(n).keys());
       this.cod = newCod;
 
-      console.log(newCod);
+      console.log(this.int);
     },
     random() {
       // verifica se tem items antes de todar a função
