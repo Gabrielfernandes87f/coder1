@@ -58,8 +58,9 @@
             reverse
           </button>
           <button class="btn btn-active mt-5" @click="done()">done</button>
-          <button class="btn btn-active mt-5" @click="gerar(int)">gerar</button>
+          <button class="btn btn-active mt-5" @click="gerar(30)">js</button>
           <button class="btn btn-active mb-5" @click="random()">random</button>
+          <button class="btn btn-active mt-5" @click="gerar(int)">gerar</button>
         </div>
         <p>random: {{ rand }}</p>
         <p>user: {{ user }}</p>
