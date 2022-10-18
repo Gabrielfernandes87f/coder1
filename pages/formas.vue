@@ -37,12 +37,9 @@
         ></span>
       </div>
       <div>
-        <a
-          class="btn badge btn-outline btn-warning"
-          href="https://coder1-gabrielfernandes87f.vercel.app/formas/#alien"
-        >
+        <button class="btn badge btn-outline btn-warning" link="#alien">
           Olhe mais em baixo ⬇️
-        </a>
+        </button>
       </div>
     </div>
     <div>
@@ -87,12 +84,7 @@
           </span>
         </div>
         <div>
-          <a
-            class="btn badge btn-circle"
-            href="https://coder1-gabrielfernandes87f.vercel.app/formas/#top"
-          >
-            top ⬆️
-          </a>
+          <button class="btn badge btn-circle" link="#top">top ⬆️</button>
         </div>
       </div>
     </div>
