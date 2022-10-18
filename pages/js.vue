@@ -58,9 +58,7 @@
             reverse
           </button>
           <button class="btn btn-active mt-5" @click="done()">done</button>
-          <button class="btn btn-active mt-5" @click="gerar = { int }">
-            js
-          </button>
+          <button class="btn btn-active mt-5" @click="gerar(int)">js</button>
           <button class="btn btn-active mb-5" @click="random()">random</button>
           <button class="btn btn-active mt-5" @click="gerar2(30)">gerar</button>
         </div>
@@ -91,7 +89,7 @@ export default {
       rand: [],
       user: [],
       n: 1,
-      int: 1,
+      int: 5,
     };
   },
   methods: {
@@ -101,11 +99,14 @@ export default {
     done() {
       this.todos = this.todos.filter((todos) => todos.stock >= "1");
     },
-    gerar(n) {
-      let newCod = Array.from(Array(n).keys());
-      this.cod = newCod;
-
-      console.log(this.int);
+    async gerar(n) {
+      try {
+        let newCod = await Array.from(Array(n).keys());
+        this.cod = newCod;
+        console.log("try aqui");
+      } catch {
+        console.log("catch aqui");
+      }
     },
     gerar2(n) {
       let newCod = Array.from(Array(n).keys());
